@@ -1,0 +1,34 @@
+{
+	"name": "tokyo-twilight",
+	"displayName": "Tokyo Twilight",
+	"description": "Dark, calm theme inspired by Tokyo Night.",
+	"version": "1.0.0",
+	"license": "MIT",
+	"icon": "./icon.png",
+	"galleryBanner": {
+		"color": "#1c1c1f",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/harismh/tokyo-twilight"
+	},
+	"bugs": {
+		"url": "https://github.com/harismh/tokyo-twilight/issues"
+	},
+	"engines": {
+		"vscode": "^1.95.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tokyo Twilight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tokyo Twilight-color-theme.json"
+			}
+		]
+	}
+}
