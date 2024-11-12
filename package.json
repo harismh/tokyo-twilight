@@ -2,6 +2,7 @@
 	"name": "tokyo-twilight",
 	"displayName": "Tokyo Twilight",
 	"description": "Dark, calm theme inspired by Tokyo Night.",
+	"publisher": "harism",
 	"version": "1.0.0",
 	"license": "MIT",
 	"icon": "./icon.png",
