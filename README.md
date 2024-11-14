@@ -34,6 +34,9 @@ All other syntax is deemphasized to promote focus on content. This can be adjust
 
 - Clojure
 - ClojureScript
+- JavaScript
+- TypeScript (& TSX)
+- Markdown
 - HTML
 - CSS
 
