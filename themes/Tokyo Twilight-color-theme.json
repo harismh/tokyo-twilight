@@ -33,6 +33,7 @@
 		"editorGutter.modifiedBackground": "#7ecaff",
 		"editorHoverWidget.foreground": "#ebecf0",
 		"editorInfo.foreground": "#7ecaff",
+		"editorLightBulb.foreground": "#a0a3ac",
 		"editorLink.activeForeground": "#7effb4",
 		"editorLineNumber.foreground": "#4a4a4f",
 		"editorStickyScroll.shadow": "#00000000",
