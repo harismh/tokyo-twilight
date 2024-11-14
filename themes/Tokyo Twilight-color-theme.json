@@ -46,6 +46,8 @@
 		"focusBorder": "#7ecaff",
 		"gitDecoration.addedResourceForeground": "#7effb4",
 		"gitDecoration.modifiedResourceForeground": "#7ecaff",
+		"gitDecoration.stageModifiedResourceForeground": "#7ecaff",
+		"gitDecoration.stageDeletedResourceForeground": "#ff7e8a",
 		"gitDecoration.untrackedResourceForeground": "#7effb4",
 		"input.background": "#2e3039",
 		"input.foreground": "#ebecf0",
