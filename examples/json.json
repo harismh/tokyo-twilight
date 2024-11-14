@@ -1,0 +1,13 @@
+{
+    "object/strings": {
+        "foo": "pseudopolinomiality",
+        "bar": "Return carriage\r\n"
+    },
+    "numbers/constants": [
+        true,
+        false,
+        null,
+        42,
+        6.626e-34
+    ]
+}

@@ -1,4 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.clj-kondo/
+.lsp/
 vsc-extension-quickstart.md
+examples/
