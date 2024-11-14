@@ -31,7 +31,7 @@
 		"editorGutter.addedBackground": "#7effb4",
 		"editorGutter.deletedBackground": "#ff7e8a",
 		"editorGutter.modifiedBackground": "#7ecaff",
-		"editorHoverWidget.foreground":"#ebecf0",
+		"editorHoverWidget.foreground": "#ebecf0",
 		"editorInfo.foreground": "#7ecaff",
 		"editorLink.activeForeground": "#7effb4",
 		"editorLineNumber.foreground": "#4a4a4f",
@@ -157,20 +157,13 @@
 			"name": "Keywords",
 			"scope": [
 				"constant.keyword.clojure",
-				"keyword.control",
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"meta.object-literal.key",
+				"meta.type.parameters.tsx",
+				"variable.object.property.tsx"
 			],
 			"settings": {
 				"foreground": "#7ecaff"
-			}
-		},
-		{
-			"name": "Namespaces",
-			"scope": [
-				"entity.name.namespace"
-			],
-			"settings": {
-				"foreground": "#ffb37e"
 			}
 		},
 		{
@@ -181,7 +174,11 @@
 				"constant.language.boolean.clojure",
 				"constant.language.nil.clojure",
 				"keyword.other.unit.px.css",
-				"constant.language.json"
+				"constant.language.json",
+				"constant.language.boolean.true",
+				"constant.language.boolean.false",
+				"constant.language.null",
+				"constant.language.undefined"
 			],
 			"settings": {
 				"foreground": "#7effb4"
@@ -190,14 +187,24 @@
 		{
 			"name": "Global definitions",
 			"scope": [
-				"entity.global.clojure"
+				"entity.name.tag",
+				"entity.name.tag.tsx",
+				"entity.global.clojure",
+				"entity.name.namespace",
+				"entity.name.type.alias.tsx",
+				"entity.name.type.class.js",
+				"meta.definition.function.js",
+				"support.type.primitive.tsx",
+				"meta.tag.structure.html entity.name.tag.html",
+				"meta.definition.function.js entity.name.function.js",
+				"meta.definition.function.tsx entity.name.function.tsx"
 			],
 			"settings": {
 				"foreground": "#ffb37e"
 			}
 		},
 		{
-			"name": "Global keywords",
+			"name": "Syntax",
 			"scope": [
 				"variable",
 				"variable.css",
@@ -218,9 +225,38 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": "punctuation",
+			"scope": [
+				"punctuation",
+				"meta.brace.square.tsx",
+				"meta.array.literal.tsx",
+				"meta.object.member.tsx",
+				"meta.objectliteral.tsx",
+				"meta.block.tsx",
+				"meta.arrow.tsx",
+				"meta.brace.square.js",
+				"meta.array.literal.js",
+				"meta.object.member.js",
+				"meta.objectliteral.js",
+				"meta.block.js",
+				"meta.brace.round.js",
+				"meta.arrow.js storage.type.function.arrow.js",
+				"meta.arrow.tsx storage.type.function.arrow.tsx"
+			],
 			"settings": {
 				"foreground": "#666"
+			}
+		},
+		{
+			"name": "Punctuation (Overrides)",
+			"scope": [
+				"storage.type",
+				"keyword.control.flow.js",
+				"keyword.control.flow.tsx",
+				"keyword.control.conditional.js",
+				"keyword.control.conditional.tsx",
+			],
+			"settings": {
+				"foreground": "#ebecf0"
 			}
 		}
 	]
